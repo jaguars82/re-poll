@@ -1,9 +1,3 @@
-/*!
-  Copyright (c) 2020 - present, DITDOT Ltd. - MIT Licence
-  https://github.com/ditdot-dev/vue-flow-form
-  https://www.ditdot.hr/en
-*/
-
 // Language data store
 
 export default class LanguageModel {
@@ -11,32 +5,32 @@ export default class LanguageModel {
     this.enterKey = 'Enter'
     this.shiftKey = 'Shift'
     this.ok = 'OK'
-    this.continue = 'Continue'
-    this.skip = 'Skip'
-    this.pressEnter = 'Press :enterKey'
-    this.multipleChoiceHelpText = 'Choose as many as you like'
-    this.multipleChoiceHelpTextSingle = 'Choose only one answer'
-    this.otherPrompt = 'Other'
-    this.placeholder = 'Type your answer here...'
-    this.submitText = 'Submit'
+    this.continue = 'Дальше'
+    this.skip = 'Пропустить'
+    this.pressEnter = 'Нажмите :enterKey'
+    this.multipleChoiceHelpText = 'Выберите один или несколько вариантов'
+    this.multipleChoiceHelpTextSingle = 'Выберите один вариант'
+    this.otherPrompt = 'Другое'
+    this.placeholder = 'Напечатайте свой вариант...'
+    this.submitText = 'Готово'
     this.longTextHelpText = ':shiftKey + :enterKey to make a line break.'
-    this.prev = 'Prev'
-    this.next = 'Next'
-    this.percentCompleted = ':percent% completed'
-    this.invalidPrompt = 'Please fill out the field correctly'
-    this.thankYouText = 'Thank you!'
-    this.successText = 'Your submission has been sent.'
-    this.ariaOk = 'Press to continue'
-    this.ariaRequired = 'This step is required'
-    this.ariaPrev = 'Previous step'
-    this.ariaNext = 'Next step'
-    this.ariaSubmitText = 'Press to submit'
-    this.ariaMultipleChoice = 'Press :letter to select'
-    this.ariaTypeAnswer = 'Type your answer here'
-    this.errorAllowedFileTypes = 'Invalid file type. Allowed file types: :fileTypes.'
-    this.errorMaxFileSize = 'File(s) too large. Maximum allowed file size: :size.'
-    this.errorMinFiles = 'Too few files added. Minimum allowed files: :min.'
-    this.errorMaxFiles = 'Too many files added. Maximum allowed files: :max.'
+    this.prev = 'Назад'
+    this.next = 'Дальше'
+    this.percentCompleted = ':percent% завершено'
+    this.invalidPrompt = 'Пожалуйста, укажите корректное значение'
+    this.thankYouText = 'Спасибо!'
+    this.successText = 'Мы получили Вашу информацию'
+    this.ariaOk = 'Нажмите, чтобы продолжить'
+    this.ariaRequired = 'Эту информацию нужно обязательно указать'
+    this.ariaPrev = 'Следующий шаг'
+    this.ariaNext = 'Предыдущий шаг'
+    this.ariaSubmitText = 'Нажмите, чтобы отправить'
+    this.ariaMultipleChoice = 'Нажмите :letter для выбора'
+    this.ariaTypeAnswer = 'Напечатайте Ваш ответ здесь'
+    this.errorAllowedFileTypes = 'Неверный тип файла. Допустимые типы: :fileTypes.'
+    this.errorMaxFileSize = 'Файл(ы) слишком большой. Максимальный размер: :size.'
+    this.errorMinFiles = 'Недостаточно файлов. Минимум нужно: :min.'
+    this.errorMaxFiles = 'Слишком много файлов. Максимум можно: :max.'
 
     Object.assign(this, options || {})
   }
@@ -59,7 +53,7 @@ export default class LanguageModel {
 
   formatFileSize(bytes) {
     const
-      units = ['B', 'kB', 'MB', 'GB', 'TB'],
+      units = ['б', 'Кб', 'Мб', 'Гб', 'Тб'],
       i = bytes > 0 ? Math.floor(Math.log(bytes) / Math.log(1024)) : 0
       
     return (bytes / Math.pow(1024, i)).toFixed(2) * 1 + ' ' + units[i];

@@ -1,9 +1,3 @@
-/*
-  Copyright (c) 2020 - present, DITDOT Ltd. - MIT Licence
-  https://github.com/ditdot-dev/vue-flow-form
-  https://www.ditdot.hr/en
-*/
-
 // Global data store
 
 export const QuestionType = Object.freeze({
@@ -32,9 +26,9 @@ export const DropdownOptionBlank = Object.freeze({
 })
 
 export const MaskPresets = Object.freeze({
-  Date: '##/##/####',
-  DateIso: '####-##-##',
-  PhoneUs: '(###) ###-####'
+  Date: '##.##.####',
+  DateIso: '##-##-####',
+  PhoneUs: '# (###) ###-##-##'
 })
 
 export class ChoiceOption {
@@ -153,7 +147,7 @@ export default class QuestionModel {
     }
 
     if (this.type === QuestionType.Date && !this.placeholder) {
-      this.placeholder = 'yyyy-mm-dd'
+      this.placeholder = 'дд.мм.гггг'
     }
 
     if (this.type !== QuestionType.Matrix && this.multiple && !Array.isArray(this.answer)) {
