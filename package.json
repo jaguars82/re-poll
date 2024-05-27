@@ -1,9 +1,6 @@
 {
-  "name": "@ditdot-dev/vue-flow-form",
-  "author": "DITDOT",
-  "description": "Create conversational conditional-logic forms with Vue.js.",
-  "version": "2.3.2",
-  "private": false,
+  "name": "@jaguars82/re-poll",
+  "author": "JaguarS82",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -28,6 +25,7 @@
     }
   },
   "dependencies": {
+    "axios": "^1.6.7",
     "vue-textarea-autosize": "^1.1.1",
     "vue-the-mask": "^0.11.1"
   },
@@ -57,10 +55,6 @@
     "vue": "^3.0.0",
     "vue-loader-v16": "^16.0.0-beta.5.4"
   },
-  "bugs": {
-    "url": "https://github.com/ditdot-dev/vue-flow-form/issues"
-  },
-  "homepage": "https://www.ditdot.hr/en/vue-flow-form",
   "jsdelivr": "dist/vue-flow-form.umd.min.js",
   "keywords": [
     "vue",
@@ -78,6 +72,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ditdot-dev/vue-flow-form.git"
+    "url": "https://github.com/jaguars82/re-poll"
   }
 }

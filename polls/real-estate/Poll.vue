@@ -1,17 +1,137 @@
-// Create and setup your form here
- 
 <template>
   <div>
     <header class="vff-header">
       <div class="f-container">
         <!-- Add custom logo here -->
-        <svg xmlns="http://www.w3.org/2000/svg" width='150' height='28' fill='white' viewBox="0 0 361.3 69.57">
+        <!--<svg xmlns="http://www.w3.org/2000/svg" width='150' height='28' fill='white' viewBox="0 0 361.3 69.57">
           <g data-name="Layer 2">
             <g data-name="Layer 1">
               <path d="M35.05 12.34h-22v9.88h20.24v10H13.08V54.7H0V2.36h35.05zM79 35q0 9.74-5.32 15.35t-15.07 5.6q-9.68 0-15-5.6T38.25 35q0-9.84 5.36-15.42t15-5.57q9.7 0 15 5.61T79 35zm-12.62.07a24.64 24.64 0 00-.58-5.85 10.88 10.88 0 00-1.6-3.75 6 6 0 00-2.46-2.05 7.91 7.91 0 00-3.13-.58 8.34 8.34 0 00-3 .51 5.82 5.82 0 00-2.46 2A10.8 10.8 0 0051.5 29a24.06 24.06 0 00-.63 6 23.19 23.19 0 00.6 5.85A11 11 0 0053 44.47a5.77 5.77 0 002.46 2 8.22 8.22 0 003.27.63 7.84 7.84 0 003-.63 5.68 5.68 0 002.45-1.9 11.19 11.19 0 001.65-3.64 24.4 24.4 0 00.58-5.88zM112.08 26.86h-1a9.16 9.16 0 00-2-.37c-.89-.08-1.88-.12-3-.12a16 16 0 00-4.06.56 36.9 36.9 0 00-4.13 1.34V54.7H85.57V15.22h12.31v5.66c.56-.51 1.34-1.16 2.33-1.95a23.8 23.8 0 012.73-1.88 15.17 15.17 0 013.11-1.39 11 11 0 013.36-.58h1.33c.49 0 .94.06 1.34.1zM164 54.7V35c0-1.94 0-3.59-.11-4.92a10 10 0 00-.63-3.27 3.59 3.59 0 00-1.63-1.85 6.93 6.93 0 00-3.12-.58 6.71 6.71 0 00-2.77.62 18.65 18.65 0 00-3 1.74v28h-12.4V35c0-1.92 0-3.56-.12-4.9a10.27 10.27 0 00-.65-3.29 3.59 3.59 0 00-1.63-1.85 6.84 6.84 0 00-3.08-.58 6.63 6.63 0 00-3 .71 21.81 21.81 0 00-2.82 1.65v28h-12.3V15.22h12.3v4.36a34.59 34.59 0 015.7-4 12.45 12.45 0 016-1.44 11.68 11.68 0 016.36 1.73 10.78 10.78 0 014.25 5.13 36.16 36.16 0 016.65-5.09 12.93 12.93 0 016.39-1.78 13.23 13.23 0 014.92.88 9.57 9.57 0 013.69 2.64 12.47 12.47 0 012.48 4.52 23.27 23.27 0 01.82 6.83v25.7zM254.85 68.55a32.87 32.87 0 01-4.24.78 65.92 65.92 0 01-6.66.24 21.07 21.07 0 01-7-1 12.93 12.93 0 01-4.83-2.94 11.81 11.81 0 01-2.9-4.43 17.71 17.71 0 01-1.11-5.52q-11.12-.49-17.49-7.7t-6.38-19.4q0-12.63 6.75-20t18.6-7.33q11.81 0 18.59 7.29t6.79 20a31.14 31.14 0 01-3.85 15.87 21.31 21.31 0 01-10.88 9.4c0 2.56.61 4.32 1.7 5.3s3 1.45 5.75 1.45a12.87 12.87 0 003.31-.46 13 13 0 002.55-.9h1.3zm-17-26.75a17.08 17.08 0 002.6-5.33 28.31 28.31 0 00.92-8 28.3 28.3 0 00-1-8 16.55 16.55 0 00-2.58-5.4 10 10 0 00-3.79-2.99 10.92 10.92 0 00-4.41-.94 10.72 10.72 0 00-4.39.87 10.51 10.51 0 00-3.8 3.07 16 16 0 00-2.62 5.42 28.41 28.41 0 00-1 8.05 28.14 28.14 0 001 8 16.17 16.17 0 002.6 5.33 9.8 9.8 0 003.76 3.12 11 11 0 004.43.93 10.61 10.61 0 004.5-1 9.77 9.77 0 003.76-3.13zM298.65 54.7h-12.3v-4.36a33.11 33.11 0 01-5.87 4.06 13.61 13.61 0 01-6.37 1.39q-5.87 0-9.15-3.71t-3.29-11.16v-25.7H274V34.8c0 2 .06 3.71.16 5a10.09 10.09 0 00.76 3.27 3.84 3.84 0 001.74 1.86 7 7 0 003.28.63 9.42 9.42 0 003.08-.63 13.4 13.4 0 003.29-1.72v-28h12.3zM320.73 9.6h-13V0h13zm-.35 45.1h-12.31V15.22h12.31zM361.3 54.7h-34.52v-8.12l18.84-22.11h-18v-9.25h33.29v8L342 45.28h19.3z"/>
             </g>
           </g>
-        </svg>
+        </svg>-->
+        <svg fill="#FFFFFF" height="36" width="36" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+            viewBox="0 0 512 512" xml:space="preserve">
+          <g>
+            <g>
+              <g>
+                <path d="M324.267,332.8c0-4.71-3.823-8.533-8.533-8.533s-8.533,3.823-8.533,8.533v17.067c0,4.71,3.823,8.533,8.533,8.533
+                  s8.533-3.823,8.533-8.533V332.8z"/>
+                <path d="M315.733,426.667c-4.71,0-8.533,3.823-8.533,8.533v34.133c0,4.71,3.823,8.533,8.533,8.533s8.533-3.823,8.533-8.533V435.2
+                  C324.267,430.49,320.444,426.667,315.733,426.667z"/>
+                <path d="M358.4,230.4c0-4.71-3.823-8.533-8.533-8.533s-8.533,3.823-8.533,8.533v17.067c0,4.71,3.823,8.533,8.533,8.533
+                  s8.533-3.823,8.533-8.533V230.4z"/>
+                <path d="M324.267,281.6c0-4.71-3.823-8.533-8.533-8.533s-8.533,3.823-8.533,8.533v17.067c0,4.71,3.823,8.533,8.533,8.533
+                  s8.533-3.823,8.533-8.533V281.6z"/>
+                <path d="M324.267,384c0-4.71-3.823-8.533-8.533-8.533S307.2,379.29,307.2,384v17.067c0,4.71,3.823,8.533,8.533,8.533
+                  s8.533-3.823,8.533-8.533V384z"/>
+                <path d="M358.4,281.6c0-4.71-3.823-8.533-8.533-8.533s-8.533,3.823-8.533,8.533v17.067c0,4.71,3.823,8.533,8.533,8.533
+                  s8.533-3.823,8.533-8.533V281.6z"/>
+                <path d="M290.133,230.4c0-4.71-3.823-8.533-8.533-8.533s-8.533,3.823-8.533,8.533v17.067c0,4.71,3.823,8.533,8.533,8.533
+                  s8.533-3.823,8.533-8.533V230.4z"/>
+                <path d="M324.267,230.4c0-4.71-3.823-8.533-8.533-8.533s-8.533,3.823-8.533,8.533v17.067c0,4.71,3.823,8.533,8.533,8.533
+                  s8.533-3.823,8.533-8.533V230.4z"/>
+                <path d="M358.4,145.067V128c0-4.71-3.823-8.533-8.533-8.533s-8.533,3.823-8.533,8.533v17.067c0,4.71,3.823,8.533,8.533,8.533
+                  S358.4,149.777,358.4,145.067z"/>
+                <path d="M290.133,281.6c0-4.71-3.823-8.533-8.533-8.533s-8.533,3.823-8.533,8.533v17.067c0,4.71,3.823,8.533,8.533,8.533
+                  s8.533-3.823,8.533-8.533V281.6z"/>
+                <path d="M392.533,128c0-4.71-3.823-8.533-8.533-8.533s-8.533,3.823-8.533,8.533v17.067c0,4.71,3.823,8.533,8.533,8.533
+                  s8.533-3.823,8.533-8.533V128z"/>
+                <path d="M281.6,324.267c-4.71,0-8.533,3.823-8.533,8.533v17.067c0,4.71,3.823,8.533,8.533,8.533s8.533-3.823,8.533-8.533V332.8
+                  C290.133,328.09,286.31,324.267,281.6,324.267z"/>
+                <path d="M426.667,384c0-4.71-3.823-8.533-8.533-8.533S409.6,379.29,409.6,384v17.067c0,4.71,3.823,8.533,8.533,8.533
+                  s8.533-3.823,8.533-8.533V384z"/>
+                <path d="M418.133,426.667c-4.71,0-8.533,3.823-8.533,8.533v34.133c0,4.71,3.823,8.533,8.533,8.533s8.533-3.823,8.533-8.533V435.2
+                  C426.667,430.49,422.844,426.667,418.133,426.667z"/>
+                <path d="M452.267,324.267c-4.71,0-8.533,3.823-8.533,8.533v17.067c0,4.71,3.823,8.533,8.533,8.533
+                  c4.71,0,8.533-3.823,8.533-8.533V332.8C460.8,328.09,456.977,324.267,452.267,324.267z"/>
+                <path d="M315.733,153.6c4.71,0,8.533-3.823,8.533-8.533v-36.002L409.6,87.731V230.4c0,3.558,2.21,6.741,5.538,7.996
+                  l62.729,23.518v87.953c0,4.71,3.823,8.533,8.533,8.533s8.533-3.823,8.533-8.533V256c0-3.558-2.21-6.741-5.538-7.996
+                  l-62.729-23.518V59.733c0-4.71-3.823-8.533-8.533-8.533s-8.533,3.823-8.533,8.533v10.402l-95.94,23.987
+                  c-3.797,0.947-6.46,4.361-6.46,8.277v42.667C307.2,149.777,311.023,153.6,315.733,153.6z"/>
+                <path d="M460.8,281.6c0-4.71-3.823-8.533-8.533-8.533c-4.71,0-8.533,3.823-8.533,8.533v17.067c0,4.71,3.823,8.533,8.533,8.533
+                  c4.71,0,8.533-3.823,8.533-8.533V281.6z"/>
+                <path d="M426.667,281.6c0-4.71-3.823-8.533-8.533-8.533s-8.533,3.823-8.533,8.533v17.067c0,4.71,3.823,8.533,8.533,8.533
+                  s8.533-3.823,8.533-8.533V281.6z"/>
+                <path d="M358.4,384c0-4.71-3.823-8.533-8.533-8.533s-8.533,3.823-8.533,8.533v17.067c0,4.71,3.823,8.533,8.533,8.533
+                  s8.533-3.823,8.533-8.533V384z"/>
+                <path d="M426.667,332.8c0-4.71-3.823-8.533-8.533-8.533s-8.533,3.823-8.533,8.533v17.067c0,4.71,3.823,8.533,8.533,8.533
+                  s8.533-3.823,8.533-8.533V332.8z"/>
+                <path d="M349.867,426.667c-4.71,0-8.533,3.823-8.533,8.533v34.133c0,4.71,3.823,8.533,8.533,8.533s8.533-3.823,8.533-8.533V435.2
+                  C358.4,430.49,354.577,426.667,349.867,426.667z"/>
+                <path d="M358.4,332.8c0-4.71-3.823-8.533-8.533-8.533s-8.533,3.823-8.533,8.533v17.067c0,4.71,3.823,8.533,8.533,8.533
+                  s8.533-3.823,8.533-8.533V332.8z"/>
+                <path d="M384,477.867c4.71,0,8.533-3.823,8.533-8.533V196.267c0-3.917-2.671-7.33-6.46-8.277L249.54,153.856
+                  c-2.534-0.64-5.257-0.06-7.322,1.553c-2.074,1.613-3.285,4.096-3.285,6.724v187.733c0,4.71,3.823,8.533,8.533,8.533
+                  s8.533-3.823,8.533-8.533V173.065l119.467,29.867v266.402C375.467,474.044,379.29,477.867,384,477.867z"/>
+                <path d="M187.733,179.2c0-4.71-3.823-8.533-8.533-8.533s-8.533,3.823-8.533,8.533v17.067c0,4.71,3.823,8.533,8.533,8.533
+                  s8.533-3.823,8.533-8.533V179.2z"/>
+                <path d="M187.733,128c0-4.71-3.823-8.533-8.533-8.533s-8.533,3.823-8.533,8.533v17.067c0,4.71,3.823,8.533,8.533,8.533
+                  s8.533-3.823,8.533-8.533V128z"/>
+                <path d="M119.467,384c0-4.71-3.823-8.533-8.533-8.533S102.4,379.29,102.4,384v17.067c0,4.71,3.823,8.533,8.533,8.533
+                  s8.533-3.823,8.533-8.533V384z"/>
+                <path d="M42.667,307.2c4.71,0,8.533-3.823,8.533-8.533V256h85.333v213.333c0,4.71,3.823,8.533,8.533,8.533
+                  c4.71,0,8.533-3.823,8.533-8.533V247.467c0-4.71-3.823-8.533-8.533-8.533h-102.4c-4.71,0-8.533,3.823-8.533,8.533v51.2
+                  C34.133,303.377,37.956,307.2,42.667,307.2z"/>
+                <path d="M136.533,179.2v17.067c0,4.71,3.823,8.533,8.533,8.533c4.71,0,8.533-3.823,8.533-8.533V179.2
+                  c0-4.71-3.823-8.533-8.533-8.533C140.356,170.667,136.533,174.49,136.533,179.2z"/>
+                <path d="M187.733,76.8c0-4.71-3.823-8.533-8.533-8.533s-8.533,3.823-8.533,8.533v17.067c0,4.71,3.823,8.533,8.533,8.533
+                  s8.533-3.823,8.533-8.533V76.8z"/>
+                <path d="M110.933,426.667c-4.71,0-8.533,3.823-8.533,8.533v34.133c0,4.71,3.823,8.533,8.533,8.533s8.533-3.823,8.533-8.533V435.2
+                  C119.467,430.49,115.644,426.667,110.933,426.667z"/>
+                <path d="M503.467,494.933H486.4v-52.412c14.677-3.814,25.6-17.067,25.6-32.922c0-18.825-15.309-34.133-34.133-34.133
+                  s-34.133,15.309-34.133,34.133c0,15.855,10.923,29.107,25.6,32.922v52.412H256v-34.995c19.447-3.968,34.133-21.197,34.133-41.805
+                  c0-23.526-19.14-42.667-42.667-42.667c-23.526,0-42.667,19.14-42.667,42.667c0,20.608,14.686,37.837,34.133,41.805v34.995H51.2
+                  v-86.195c19.447-3.968,34.133-21.197,34.133-41.805c0-23.526-19.14-42.667-42.667-42.667C19.14,324.267,0,343.407,0,366.933
+                  c0,20.608,14.686,37.837,34.133,41.805v86.195h-25.6c-4.71,0-8.533,3.823-8.533,8.533S3.823,512,8.533,512h494.933
+                  c4.71,0,8.533-3.823,8.533-8.533S508.177,494.933,503.467,494.933z M17.067,366.933c0-14.114,11.486-25.6,25.6-25.6
+                  s25.6,11.486,25.6,25.6s-11.486,25.6-25.6,25.6S17.067,381.047,17.067,366.933z M221.867,418.133c0-14.114,11.486-25.6,25.6-25.6
+                  s25.6,11.486,25.6,25.6s-11.486,25.6-25.6,25.6S221.867,432.247,221.867,418.133z M460.8,409.6
+                  c0-9.412,7.654-17.067,17.067-17.067s17.067,7.654,17.067,17.067c0,9.412-7.654,17.067-17.067,17.067S460.8,419.012,460.8,409.6z
+                  "/>
+                <path d="M68.267,435.2v34.133c0,4.71,3.823,8.533,8.533,8.533s8.533-3.823,8.533-8.533V435.2c0-4.71-3.823-8.533-8.533-8.533
+                  S68.267,430.49,68.267,435.2z"/>
+                <path d="M119.467,281.6c0-4.71-3.823-8.533-8.533-8.533s-8.533,3.823-8.533,8.533v17.067c0,4.71,3.823,8.533,8.533,8.533
+                  s8.533-3.823,8.533-8.533V281.6z"/>
+                <path d="M119.467,332.8c0-4.71-3.823-8.533-8.533-8.533s-8.533,3.823-8.533,8.533v17.067c0,4.71,3.823,8.533,8.533,8.533
+                  s8.533-3.823,8.533-8.533V332.8z"/>
+                <path d="M68.267,281.6v17.067c0,4.71,3.823,8.533,8.533,8.533s8.533-3.823,8.533-8.533V281.6c0-4.71-3.823-8.533-8.533-8.533
+                  S68.267,276.89,68.267,281.6z"/>
+                <path d="M187.733,332.8c0-4.71-3.823-8.533-8.533-8.533s-8.533,3.823-8.533,8.533v17.067c0,4.71,3.823,8.533,8.533,8.533
+                  s8.533-3.823,8.533-8.533V332.8z"/>
+                <path d="M221.867,230.4c0-4.71-3.823-8.533-8.533-8.533c-4.71,0-8.533,3.823-8.533,8.533v17.067c0,4.71,3.823,8.533,8.533,8.533
+                  c4.71,0,8.533-3.823,8.533-8.533V230.4z"/>
+                <path d="M221.867,179.2c0-4.71-3.823-8.533-8.533-8.533c-4.71,0-8.533,3.823-8.533,8.533v17.067c0,4.71,3.823,8.533,8.533,8.533
+                  c4.71,0,8.533-3.823,8.533-8.533V179.2z"/>
+                <path d="M221.867,281.6c0-4.71-3.823-8.533-8.533-8.533c-4.71,0-8.533,3.823-8.533,8.533v17.067c0,4.71,3.823,8.533,8.533,8.533
+                  c4.71,0,8.533-3.823,8.533-8.533V281.6z"/>
+                <path d="M213.333,324.267c-4.71,0-8.533,3.823-8.533,8.533v17.067c0,4.71,3.823,8.533,8.533,8.533
+                  c4.71,0,8.533-3.823,8.533-8.533V332.8C221.867,328.09,218.044,324.267,213.333,324.267z"/>
+                <path d="M221.867,128c0-4.71-3.823-8.533-8.533-8.533c-4.71,0-8.533,3.823-8.533,8.533v17.067c0,4.71,3.823,8.533,8.533,8.533
+                  c4.71,0,8.533-3.823,8.533-8.533V128z"/>
+                <path d="M187.733,384c0-4.71-3.823-8.533-8.533-8.533s-8.533,3.823-8.533,8.533v17.067c0,4.71,3.823,8.533,8.533,8.533
+                  s8.533-3.823,8.533-8.533V384z"/>
+                <path d="M110.933,221.867c4.71,0,8.533-3.823,8.533-8.533V150.34l29.414-14.703c2.893-1.451,4.719-4.403,4.719-7.637V56.474
+                  l42.667-21.333l42.667,21.333V128c0,4.71,3.823,8.533,8.533,8.533S256,132.71,256,128V51.2c0-3.234-1.826-6.187-4.719-7.637
+                  L204.8,20.326V8.533c0-4.71-3.823-8.533-8.533-8.533s-8.533,3.823-8.533,8.533v11.793l-46.481,23.236
+                  c-2.893,1.451-4.719,4.403-4.719,7.637v71.526l-29.414,14.703c-2.893,1.451-4.719,4.403-4.719,7.637v68.267
+                  C102.4,218.044,106.223,221.867,110.933,221.867z"/>
+                <path d="M187.733,281.6c0-4.71-3.823-8.533-8.533-8.533s-8.533,3.823-8.533,8.533v17.067c0,4.71,3.823,8.533,8.533,8.533
+                  s8.533-3.823,8.533-8.533V281.6z"/>
+                <path d="M179.2,426.667c-4.71,0-8.533,3.823-8.533,8.533v34.133c0,4.71,3.823,8.533,8.533,8.533s8.533-3.823,8.533-8.533V435.2
+                  C187.733,430.49,183.91,426.667,179.2,426.667z"/>
+                <path d="M221.867,76.8c0-4.71-3.823-8.533-8.533-8.533c-4.71,0-8.533,3.823-8.533,8.533v17.067c0,4.71,3.823,8.533,8.533,8.533
+                  c4.71,0,8.533-3.823,8.533-8.533V76.8z"/>
+                <path d="M187.733,230.4c0-4.71-3.823-8.533-8.533-8.533s-8.533,3.823-8.533,8.533v17.067c0,4.71,3.823,8.533,8.533,8.533
+                  s8.533-3.823,8.533-8.533V230.4z"/>
+              </g>
+            </g>
+          </g>
+          </svg>
+          <div class="r-info">
+            <div class="r-info-name">Отдел продаж новостроек</div>
+            <div>ЖК Воронежа</div>
+          </div>
       </div>
     </header>
 
@@ -19,22 +139,33 @@
       ref="flowform"
       v-on:complete="onComplete"
       v-on:submit="onQuizSubmit"
-      v-on:timer="onTimer"
       v-bind:questions="questions"
       v-bind:language="language"
       v-bind:standalone="true"
-      v-bind:timer="true"
-      timer-start-step="html_1"
     >
     <!-- Custom content for the Complete/Submit screen slots in the FlowForm component -->
       <!-- We've overriden the default "complete" slot content -->
       <template v-slot:complete>
-        <p>
-          <span class="fh2">You did it!</span>
-          <span v-if="!submitted" class="f-section-text">
-            Review your answers or press Calculate score to see your result.
-          </span>
-        </p>
+        <template v-if="!submitted">
+          <p>
+            <span class="fh2">Отлично!</span>
+            <span class="f-section-text">
+              Проверьте, пожалуйста, правильность информации и нажмите "Подтвердить".
+            </span>
+          </p>
+          <div class="answers-block">
+            <template v-for="question of questions" :key="question.id">
+              <div v-if="question.id !== 'start'">
+                <span class="field-name">{{ question.shortTitle }}: </span><span class="field-value">{{ Array.isArray(question.answer) ? question.answer.join(', ') : question.answer }}</span>
+              </div>
+            </template>
+          </div>
+        </template>
+        <div v-if="submitted">
+          <p class="">
+            <span class="fh2">Спасибо!</span>
+          </p>
+        </div>
       </template>
 
       <!-- We've overriden the default "completeButton" slot content -->
@@ -45,38 +176,27 @@
             ref="button"
             type="submit"
             href="#"
-            v-on:click.prevent="onQuizSubmit()"
+            v-on:click.prevent="onSubmit()"
             aria-label="Press to submit">
-            <span>Calculate score</span>
+            <span>Подтвердить</span>
           </button>
-          <a 
+          <!--<a 
             class="f-enter-desc"
             href="#"
-            v-on:click.prevent="onQuizSubmit()"
+            v-on:click.prevent="onSubmit()"
             v-html="language.formatString(language.pressEnter)">
-          </a>
+          </a>-->
         </div>
-        <p class="text-success" v-if="submitted && time">Your time: {{ formattedTime }}</p>
-        <p class="text-success" v-if="submitted && score < 4">"You scored {{ score }} out of {{ total }}. There's a lot of room for improvement."</p>
-        <p class="text-success" v-else-if="submitted && score < 7">"You scored {{ score }} out of {{ total }}. Not bad at all!"</p>
-        <p class="text-success" v-else-if="submitted && score <= total">"You scored {{ score }} out of {{ total }}. Wow, that's impressive!"</p>
       </template>
     </flow-form>
   </div>
 </template>
 
 <script>
-  /*
-    Copyright (c) 2020 - present, DITDOT Ltd. - MIT Licence
-    https://www.ditdot.hr/en
-  */
-
-  // Import necessary components and classes
+  import axios from 'axios'
   import FlowForm from '../../src/components/FlowForm.vue'
   import QuestionModel, { QuestionType, ChoiceOption, LinkOption } from '../../src/models/QuestionModel'
   import LanguageModel from '../../src/models/LanguageModel'
-  // If using the npm package, use the following line instead of the ones above.
-  // import FlowForm, { QuestionModel, QuestionType, ChoiceOption, LanguageModel } from '@ditdot-dev/vue-flow-form'
 
   export default {
     name: 'example',
@@ -106,201 +226,233 @@
         questions: [      
           new QuestionModel({
             id: 'start',
-            tagline: '8 questions',
-            title: 'How much do you know about forms?',
-            content: 'Test how well you know HTML forms in the first quiz section.',
+            tagline: 'всего за несколько простых шагов',
+            title: 'Подберите идеальную квартиру в лучших новостройках Воронежа',
+            content: 'напрямую от застройщика',
             type: QuestionType.SectionBreak,
             required: true,
           }),
           new QuestionModel({
-            id: 'html_1',
-            title: 'Which of the following are valid input field types?',
-            helpText: 'Choose all answers that apply.',
+            id: 'rooms',
+            shortTitle: 'тип квартиры',
+            title: 'Какую квартиру Вы хотите купить?',
+            helpText: 'можно указать один или несколько вариантов',
             type: QuestionType.MultipleChoice,
             required: true,
             multiple: true,
             options: [
               new ChoiceOption({
-                label: 'check', 
-                value: '1'
+                label: 'Студию', 
+                value: 'студия'
               }),
               new ChoiceOption({
-                label: 'date', 
-                value: '2'
+                label: '1-комнатную', 
+                value: '1-комнатная'
                }),
               new ChoiceOption({
-                label: 'image', 
-                value: '3'
+                label: '2-комнатную', 
+                value: '2-комнатная'
               }), 
               new ChoiceOption({
-                label: 'telephone', 
-                value: '4'
+                label: '3-комнатную', 
+                value: '3-комнатная'
+              }),
+              new ChoiceOption({
+                label: '4-комнатную', 
+                value: '4-комнатная'
               })
             ]
           }),
           new QuestionModel({
-            id: 'html_2',
-            title: '<label> is associated with <input> using the "name" attribute.',
+            id: 'district',
+            shortTitle: 'расположение',
+            title: 'Где бы Вы хотели приобрести квартиру',
             helpTextShow: false,
             type: QuestionType.MultipleChoice,
             required: true,
-            multiple: false,
+            multiple: true,
              options: [
               new ChoiceOption({
-                label: 'True', 
-                value: 'true'
+                label: 'Любой район Воронежа', 
+                value: 'любой район Воронежа'
               }),
               new ChoiceOption({
-                label: 'False', 
-                value: 'false'
-              })
+                label: 'Железнодорожный', 
+                value: 'Железнодорожный'
+              }),
+              new ChoiceOption({
+                label: 'Коминтерновский', 
+                value: 'Коминтерновский'
+              }),
+              new ChoiceOption({
+                label: 'Левобережный', 
+                value: 'Левобережный'
+              }),
+              new ChoiceOption({
+                label: 'Ленинский', 
+                value: 'Ленинский'
+              }),
+              new ChoiceOption({
+                label: 'Советский', 
+                value: 'Советский'
+              }),
+              new ChoiceOption({
+                label: 'Центральный', 
+                value: 'Центральный'
+              }),
+              new ChoiceOption({
+                label: 'Область', 
+                value: 'Область'
+              }),
             ]
           }),
           new QuestionModel({
-            id: 'html_3',
-            title: 'Which HTML element is used to define a dropdown list?',
-            helpText: "Which one sounds right? There's only one right answer.",
+            id: 'deadline',
+            shortTitle: 'срок сдачи',
+            title: 'Какой срок сдачи Вам подходит?',
             type: QuestionType.MultipleChoice,
             required: true,
-            multiple: false, 
+            multiple: true, 
             options: [
               new ChoiceOption({
-                label: '<form>', 
-                value: '1'
+                label: 'Дом сдан', 
+                value: 'дом сдан'
               }),
               new ChoiceOption({
-                label: '<select>', 
-                value: '2'
+                label: 'Сдаётся в этом году', 
+                value: 'сдаётся в этом году'
               }),
               new ChoiceOption({
-                label: '<fieldset>', 
-                value: '3'
+                label: 'Сдаётся через год', 
+                value: 'сдаётся через год'
               }), 
               new ChoiceOption({
-                label: '<legend>', 
-                value: '4'
-              })
+                label: 'Сдаётся через 2 года', 
+                value: 'сдаётся через 2 года'
+              }),
+              new ChoiceOption({
+                label: 'Любая стадия строительства', 
+                value: 'любая стадия строительства'
+              }),
             ] 
           }),
           new QuestionModel({
-            id: 'html_4',
-            title: 'To which elements can :invalid pseudo class be applied?',
+            id: 'price',
+            shortTitle: 'стоимость',
+            title: 'На какую сумму Вы рассчитываете?',
+            type: QuestionType.MultipleChoice,
+            multiple: false,
+            helpText: 'укажите примерный диапазон в рублях',
+            required: true,
+            options: [
+              new ChoiceOption({
+                label: 'до 2-х миллионов',
+                value: 'до 2-х миллионов'
+              }),
+              new ChoiceOption({
+                label: '2-4 миллиона',
+                value: '2-4 миллиона'
+              }),
+              new ChoiceOption({
+                label: '4-5 миллионов',
+                value: '4-5 миллионов' 
+              }),
+              new ChoiceOption({
+                label: '5-6 миллионов', 
+                value: '5-6 миллионов'
+              }),
+              new ChoiceOption({
+                label: '6-7 миллионов', 
+                value: '6-7 миллионов'
+              }),
+              new ChoiceOption({
+                label: 'больше 7 миллионов', 
+                value: 'больше 7 миллионов'
+              }),
+            ]
+          }),
+          new QuestionModel({
+            id: 'paytype',
+            shortTitle: 'виды оплаты',
+            title: 'Какие варианты оплаты рассматриваете?',
             type: QuestionType.MultipleChoice,
             multiple: true,
-            helpText: 'Select one or more correct answers.',
             required: true,
             options: [
               new ChoiceOption({
-                label: '<legend>',
-                value: '1'
+                label: 'Собственные средства',
+                value: 'собственные средства'
               }),
               new ChoiceOption({
-                label: '<fieldset>',
-                value: '2'
+                label: 'Ипотека',
+                value: 'ипотека'
               }),
               new ChoiceOption({
-                label: '<form>',
-                value: '3' 
+                label: 'Военная ипотека',
+                value: 'военная ипотека' 
               }),
               new ChoiceOption({
-                label: '<input>', 
-                value: '4'
+                label: 'Рассрочка', 
+                value: 'рассрочка'
+              }),
+              new ChoiceOption({
+                label: 'Материнский капитал', 
+                value: 'материнский капитал'
               })
             ]
           }),
           new QuestionModel({
-            title: 'Excellent! You are halfway through.',
-            content: 'Form UX is important too. Test your form usability knowledge in the following section.',
-            type: QuestionType.SectionBreak
-          }),
-          new QuestionModel({
-            id: 'ux_1',
-            title: 'How to reduce the perceived complexity of the long form?',
-            type: QuestionType.MultipleChoice,
-            multiple: true,
-            helpText: 'Select all that apply.',
+            id: 'phone',
+            shortTitle: 'телефон',
+            title: 'Укажите номер телефона для связи с Вами',
+            helpText: 'десять цифр без восмерки',
+            type: QuestionType.Phone,
             required: true,
-            options: [
-              new ChoiceOption({
-                label: 'Divide the form into multiple steps', 
-                value: '1'
-              }),
-              new ChoiceOption({
-                label: 'Add progress tracking', 
-                value: '2'
-              }),
-              new ChoiceOption({
-                label: 'Use as many emojis as possible', 
-                value: '3'
-              }),
-              new ChoiceOption({
-                label: 'Group questions into sections', 
-                value: '4'
-              })
-            ]
+            mask: '+7 (###) ###-##-##'
           }),
           new QuestionModel({
-            id: 'ux_2',
-            title: 'Error messages are bad because they confuse users.',
-            helpTextShow: false,
+            id: 'calltime',
+            shortTitle: 'можно позвонить',
+            title: 'Когда Вам удобно принять звонок?',
+            helpText: false,
             type: QuestionType.MultipleChoice,
             multiple: false,
             required: true,
             options: [
               new ChoiceOption({
-                label: 'True', 
-                value: 'true'
+                label: 'Сейчас',
+                value: 'сейчас'
               }),
               new ChoiceOption({
-                label: 'False', 
-                value: 'false'
-              })
+                label: 'В любое время',
+                value: 'в любое время'
+              }),
+              new ChoiceOption({
+                label: 'с 9:00 до 12:00',
+                value: 'с 9:00 до 12:00' 
+              }),
+              new ChoiceOption({
+                label: 'с 12:00 до 15:00', 
+                value: 'с 12:00 до 15:00'
+              }),
+              new ChoiceOption({
+                label: 'с 15:00 до 18:00', 
+                value: 'с 15:00 до 18:00'
+              }),
+              new ChoiceOption({
+                label: 'с 18:00 до 21:00', 
+                value: 'с 18:00 до 21:00'
+              }),
             ]
           }),
           new QuestionModel({
-            id: 'ux_3',
-            title: 'How to make the input format clear?',
-            type: QuestionType.MultipleChoice,
-            multiple: false,
-            helpText: 'Select one correct answer.',
+            id: 'clientname',
+            shortTitle: 'имя',
+            title: 'Как к Вам можно обращаться?',
+            type: QuestionType.Text,
             required: true,
-            options: [
-              new ChoiceOption({
-                label: 'Add progress bar to the form', 
-                value: '1'
-              }),
-              new ChoiceOption({
-                label: 'Mark required vs. optional fields', 
-                value: '2'
-              }),
-              new ChoiceOption({
-                label: 'Use bold color palette', 
-                value: '3'
-              }),
-              new ChoiceOption({
-                label: 'Use placeholder and masked input', 
-                value: '4'
-              })
-            ]
+            placeholder: 'Напишите свое имя...'
           }),
-          new QuestionModel({
-            id: 'ux_4',
-            title: 'Inline validation should have a real time feedback.',
-            helpTextShow: false,
-            type: QuestionType.MultipleChoice,
-            multiple: false,
-            required: true,
-            options: [
-              new ChoiceOption({
-                label: 'True', 
-                value: 'true'
-              }),
-              new ChoiceOption({
-                label: 'False', 
-                value: 'false'
-              })
-            ]
-          })
         ]
       }
     },
@@ -311,12 +463,12 @@
         this.completed = completed
       },
 
-      arrayEquals(a, b) {
+      /*arrayEquals(a, b) {
         return Array.isArray(a) && Array.isArray(b) && a.length === b.length &&
           a.every((val, index) => val === b[index])
-      },
+      },*/
 
-      calculateScore() {
+      /*calculateScore() {
         this.questions.forEach(question => {
           if (question.type !== QuestionType.SectionBreak) {
             let answer = question.answer
@@ -332,28 +484,79 @@
             }
           }
         })
-      }, 
+      }, */
 
-      onQuizSubmit() {
-        // Set `submitted` to true so the form knows not to allow back/forward
-        // navigation anymore.
-        this.$refs.flowform.submitted = true
+      onSubmit() {
+        const data = this.getData()
+        // console.log(data)
+        axios.post('https://api.новое-жилье36.рф/public/api/lead/add', {
+          data,
+        }, { withCredentials: true })
+        .then((response) => {
+          // handle success
+          console.log(response)
+          // Set `submitted` to true so the form knows not to allow back/forward
+          // navigation anymore.
+          this.$refs.flowform.submitted = true
+          this.submitted = true
+        })
+        .catch((error) => {
+          // handle error
+          console.log(error)
+        })
         
-        this.submitted = true
-        this.calculateScore()
+        //this.calculateScore()
       },
+      getData() {
+        const data = {
+          forEmail: {},
+          forDataBase: {}
+        }
 
-      onTimer(time, formattedTime) {
-        this.time = formattedTime
-        this.formattedTime = formattedTime
+        this.questions.forEach(question => {
+          if (question.id !== 'start') {
+            let answer = question.answer
+            if (Array.isArray(answer)) {
+              answer = answer.join(', ')
+            }
+
+            data.forEmail[question.shortTitle] = answer
+            data.forDataBase[question.id] = answer
+          }
+        })
+
+        return data
       }
     },
   }
 </script>
 
 <style lang="css">
-  @import '../../src/assets/css/themes/theme-purple.css';
-  /* If using the npm package, use the following lines instead of the one above */
-  /* @import '~@ditdot-dev/vue-flow-form/dist/vue-flow-form.css'; */
-  /* @import '~@ditdot-dev/vue-flow-form/dist/vue-flow-form.theme-purple.css'; */
+  @import '../../src/assets/css/themes/theme-vrn.css';
+
+  .f-container {
+    display: flex;
+  }
+
+  .r-info {
+    color: #FFFFFF;
+    margin-left: 8px;
+  }
+
+  .r-info-name {
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+
+  .answers-block {
+    margin-bottom: 15px;
+  }
+
+  .field-name {
+    /*color: #888;*/
+  }
+
+  .field-value {
+    font-weight: 900;
+  }
 </style>

@@ -19,7 +19,7 @@ export default class LanguageModel {
     this.percentCompleted = ':percent% завершено'
     this.invalidPrompt = 'Пожалуйста, укажите корректное значение'
     this.thankYouText = 'Спасибо!'
-    this.successText = 'Мы получили Вашу информацию'
+    this.successText = 'Ваша заявки принята. В ближажшее время мы свяжемся с Вами.'
     this.ariaOk = 'Нажмите, чтобы продолжить'
     this.ariaRequired = 'Эту информацию нужно обязательно указать'
     this.ariaPrev = 'Следующий шаг'
