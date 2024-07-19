@@ -263,7 +263,7 @@
               })
             ]
           }),
-          new QuestionModel({
+          /*new QuestionModel({
             id: 'district',
             shortTitle: 'расположение',
             title: 'Где бы Вы хотели приобрести квартиру',
@@ -305,8 +305,8 @@
                 value: 'Область'
               }),
             ]
-          }),
-          new QuestionModel({
+          }),*/
+          /*new QuestionModel({
             id: 'deadline',
             shortTitle: 'срок сдачи',
             title: 'Какой срок сдачи Вам подходит?',
@@ -335,8 +335,8 @@
                 value: 'любая стадия строительства'
               }),
             ] 
-          }),
-          new QuestionModel({
+          }),*/
+          /*new QuestionModel({
             id: 'price',
             shortTitle: 'стоимость',
             title: 'На какую сумму Вы рассчитываете?',
@@ -370,7 +370,7 @@
                 value: 'больше 7 миллионов'
               }),
             ]
-          }),
+          }),*/
           new QuestionModel({
             id: 'paytype',
             shortTitle: 'виды оплаты',
@@ -410,7 +410,7 @@
             required: true,
             mask: '+7 (###) ###-##-##'
           }),
-          new QuestionModel({
+          /*new QuestionModel({
             id: 'calltime',
             shortTitle: 'можно позвонить',
             title: 'Когда Вам удобно принять звонок?',
@@ -444,15 +444,15 @@
                 value: 'с 18:00 до 21:00'
               }),
             ]
-          }),
-          new QuestionModel({
+          }),*/
+          /*new QuestionModel({
             id: 'clientname',
             shortTitle: 'имя',
             title: 'Как к Вам можно обращаться?',
             type: QuestionType.Text,
             required: true,
             placeholder: 'Напишите свое имя...'
-          }),
+          }),*/
         ]
       }
     },
