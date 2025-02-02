@@ -1,11 +1,4 @@
-// Used as the basis and extended by other Question Type components
-
 <script>
-  /*
-    Copyright (c) 2020 - present, DITDOT Ltd. - MIT Licence
-    https://github.com/ditdot-dev/vue-flow-form
-    https://www.ditdot.hr/en
-  */
 
   import QuestionModel from '../../models/QuestionModel'
   import LanguageModel from '../../models/LanguageModel'

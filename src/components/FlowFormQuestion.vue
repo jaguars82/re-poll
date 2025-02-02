@@ -1,5 +1,3 @@
-// Single question template and logic
-
 <template>
   <div class="vff-animate q-form" v-bind:class="mainClasses" ref="qanimate">
     <div class="q-inner">
@@ -92,11 +90,6 @@
 </template>
 
 <script>
-  /*
-    Copyright (c) 2020 - present, DITDOT Ltd. - MIT Licence
-    https://github.com/ditdot-dev/vue-flow-form
-    https://www.ditdot.hr/en
-  */
 
   import LanguageModel from '../models/LanguageModel'
   import QuestionModel, { QuestionType, LinkOption } from '../models/QuestionModel'

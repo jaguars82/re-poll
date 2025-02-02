@@ -35,10 +35,6 @@ export default class LanguageModel {
     Object.assign(this, options || {})
   }
 
-  /**
-   * Inserts a new CSS class into the language model string to format the :string
-   * Use it in a component's v-html directive: v-html="language.formatString(language.languageString)"
-   */
   formatString(string, replacements) {
     return string.replace(/:(\w+)/g, (match, word) => {
       if (this[word]) {

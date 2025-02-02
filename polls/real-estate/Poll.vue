@@ -2,15 +2,7 @@
   <div>
     <header class="vff-header">
       <div class="f-container">
-        <!-- Add custom logo here -->
-        <!--<svg xmlns="http://www.w3.org/2000/svg" width='150' height='28' fill='white' viewBox="0 0 361.3 69.57">
-          <g data-name="Layer 2">
-            <g data-name="Layer 1">
-              <path d="M35.05 12.34h-22v9.88h20.24v10H13.08V54.7H0V2.36h35.05zM79 35q0 9.74-5.32 15.35t-15.07 5.6q-9.68 0-15-5.6T38.25 35q0-9.84 5.36-15.42t15-5.57q9.7 0 15 5.61T79 35zm-12.62.07a24.64 24.64 0 00-.58-5.85 10.88 10.88 0 00-1.6-3.75 6 6 0 00-2.46-2.05 7.91 7.91 0 00-3.13-.58 8.34 8.34 0 00-3 .51 5.82 5.82 0 00-2.46 2A10.8 10.8 0 0051.5 29a24.06 24.06 0 00-.63 6 23.19 23.19 0 00.6 5.85A11 11 0 0053 44.47a5.77 5.77 0 002.46 2 8.22 8.22 0 003.27.63 7.84 7.84 0 003-.63 5.68 5.68 0 002.45-1.9 11.19 11.19 0 001.65-3.64 24.4 24.4 0 00.58-5.88zM112.08 26.86h-1a9.16 9.16 0 00-2-.37c-.89-.08-1.88-.12-3-.12a16 16 0 00-4.06.56 36.9 36.9 0 00-4.13 1.34V54.7H85.57V15.22h12.31v5.66c.56-.51 1.34-1.16 2.33-1.95a23.8 23.8 0 012.73-1.88 15.17 15.17 0 013.11-1.39 11 11 0 013.36-.58h1.33c.49 0 .94.06 1.34.1zM164 54.7V35c0-1.94 0-3.59-.11-4.92a10 10 0 00-.63-3.27 3.59 3.59 0 00-1.63-1.85 6.93 6.93 0 00-3.12-.58 6.71 6.71 0 00-2.77.62 18.65 18.65 0 00-3 1.74v28h-12.4V35c0-1.92 0-3.56-.12-4.9a10.27 10.27 0 00-.65-3.29 3.59 3.59 0 00-1.63-1.85 6.84 6.84 0 00-3.08-.58 6.63 6.63 0 00-3 .71 21.81 21.81 0 00-2.82 1.65v28h-12.3V15.22h12.3v4.36a34.59 34.59 0 015.7-4 12.45 12.45 0 016-1.44 11.68 11.68 0 016.36 1.73 10.78 10.78 0 014.25 5.13 36.16 36.16 0 016.65-5.09 12.93 12.93 0 016.39-1.78 13.23 13.23 0 014.92.88 9.57 9.57 0 013.69 2.64 12.47 12.47 0 012.48 4.52 23.27 23.27 0 01.82 6.83v25.7zM254.85 68.55a32.87 32.87 0 01-4.24.78 65.92 65.92 0 01-6.66.24 21.07 21.07 0 01-7-1 12.93 12.93 0 01-4.83-2.94 11.81 11.81 0 01-2.9-4.43 17.71 17.71 0 01-1.11-5.52q-11.12-.49-17.49-7.7t-6.38-19.4q0-12.63 6.75-20t18.6-7.33q11.81 0 18.59 7.29t6.79 20a31.14 31.14 0 01-3.85 15.87 21.31 21.31 0 01-10.88 9.4c0 2.56.61 4.32 1.7 5.3s3 1.45 5.75 1.45a12.87 12.87 0 003.31-.46 13 13 0 002.55-.9h1.3zm-17-26.75a17.08 17.08 0 002.6-5.33 28.31 28.31 0 00.92-8 28.3 28.3 0 00-1-8 16.55 16.55 0 00-2.58-5.4 10 10 0 00-3.79-2.99 10.92 10.92 0 00-4.41-.94 10.72 10.72 0 00-4.39.87 10.51 10.51 0 00-3.8 3.07 16 16 0 00-2.62 5.42 28.41 28.41 0 00-1 8.05 28.14 28.14 0 001 8 16.17 16.17 0 002.6 5.33 9.8 9.8 0 003.76 3.12 11 11 0 004.43.93 10.61 10.61 0 004.5-1 9.77 9.77 0 003.76-3.13zM298.65 54.7h-12.3v-4.36a33.11 33.11 0 01-5.87 4.06 13.61 13.61 0 01-6.37 1.39q-5.87 0-9.15-3.71t-3.29-11.16v-25.7H274V34.8c0 2 .06 3.71.16 5a10.09 10.09 0 00.76 3.27 3.84 3.84 0 001.74 1.86 7 7 0 003.28.63 9.42 9.42 0 003.08-.63 13.4 13.4 0 003.29-1.72v-28h12.3zM320.73 9.6h-13V0h13zm-.35 45.1h-12.31V15.22h12.31zM361.3 54.7h-34.52v-8.12l18.84-22.11h-18v-9.25h33.29v8L342 45.28h19.3z"/>
-            </g>
-          </g>
-        </svg>-->
-        <svg fill="#FFFFFF" height="84" width="84" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+        <svg fill="#FFFFFF" height="100" width="100" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
             viewBox="0 0 512 512" xml:space="preserve">
           <g>
             <g>
@@ -133,11 +125,15 @@
             <div class="r-info-subtitle">ЖК Воронежа</div>
             <div class="contact-info">
               <svg fill="#FFFFFF" height="20" width="20" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M384 32H64C28.65 32 0 60.65 0 96v320c0 35.35 28.65 64 64 64h320c35.35 0 64-28.65 64-64V96C448 60.65 419.3 32 384 32zM351.6 321.5l-11.62 50.39c-1.633 7.125-7.9 12.11-15.24 12.11c-126.1 0-228.7-102.6-228.7-228.8c0-7.328 4.984-13.59 12.11-15.22l50.38-11.63c7.344-1.703 14.88 2.109 17.93 9.062l23.27 54.28c2.719 6.391 .8828 13.83-4.492 18.22L168.3 232c16.99 34.61 45.14 62.75 79.77 79.75l22.02-26.91c4.344-5.391 11.85-7.25 18.24-4.484l54.24 23.25C349.5 306.6 353.3 314.2 351.6 321.5z"/></svg>
-              <div>+7 (920) 222-58-59</div>
+              <div>+7 (920) 434-12-21</div>
             </div>
             <div class="contact-info">
               <svg fill="#FFFFFF" height="20" width="20" version="1.1" viewBox="0 0 777 508" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill-rule="evenodd" id="Page-1" stroke="none" stroke-width="1"><path d="M0.849684267,37.7112682 C-4.46720912,5.26682385 152.381103,25.3544974 152.381103,25.3544974 C152.381103,25.3544974 243.432877,254.010586 279.321897,254.010582 C315.210917,254.010578 297.931019,60.1164021 297.931019,60.1164021 C297.931019,60.1164021 253.402048,48.5291005 253.402049,30.7619048 C253.402051,12.994709 297.931019,0.634920635 297.931019,0.634920635 C297.931019,0.634920635 413.168963,0.634922188 428.859482,0.634920635 C444.55,0.634919061 450.794241,26.1269854 450.794257,43.1216931 C450.794272,60.1164008 450.794257,250.920635 450.794257,250.920635 L486.683277,250.920635 C486.683277,250.920635 518.630315,199.572804 543.837269,147.407407 C569.044225,95.2420119 599.664634,25.3544974 599.664634,25.3544974 L751.860664,25.3544974 C751.860664,25.3544974 779.774347,26.1209492 776.451289,49.2985698 C771.930545,80.8298057 670.67553,230.566247 649.510495,281.817088 C633.559819,320.441427 716.517779,372.719686 751.860664,428.589575 C774.798669,464.849881 776.451289,507.386243 776.451289,507.386243 L595.679561,507.386243 L505.289803,402.325025 C505.289803,402.325025 486.683277,394.603175 472.059228,405.414972 C457.43518,416.22677 456.773164,437.859416 456.773164,437.859416 L456.773164,507.386243 L315.210917,507.386243 C315.210917,507.386243 206.879245,470.306878 115.16286,308.084656 C23.4464649,145.862436 6.16657616,70.1557126 0.849684267,37.7112682 Z" fill="#FFFFFF" id="vkontakte"/></g></svg>
               <div><a target="_blank" href="https://vk.com/club223850485">мы ВКонтакте</a></div>
+            </div>
+            <div class="contact-info">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#FFFFFF" viewBox="0 0 16 16"> <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/> </svg>
+              <div>Московский проспект, 10</div>
             </div>
           </div>
       </div>
@@ -151,8 +147,7 @@
       v-bind:language="language"
       v-bind:standalone="true"
     >
-    <!-- Custom content for the Complete/Submit screen slots in the FlowForm component -->
-      <!-- We've overriden the default "complete" slot content -->
+
       <template v-slot:complete>
         <template v-if="!submitted">
           <p>
@@ -176,7 +171,6 @@
         </div>
       </template>
 
-      <!-- We've overriden the default "completeButton" slot content -->
       <template v-slot:completeButton>
         <div class="f-submit" v-if="!submitted">
           <button
@@ -188,12 +182,7 @@
             aria-label="Press to submit">
             <span>Подтвердить</span>
           </button>
-          <!--<a 
-            class="f-enter-desc"
-            href="#"
-            v-on:click.prevent="onSubmit()"
-            v-html="language.formatString(language.pressEnter)">
-          </a>-->
+
         </div>
       </template>
     </flow-form>
@@ -230,7 +219,6 @@
           ux_4: 'true', 
         },
         language: new LanguageModel(),
-        // Create question list with QuestionModel instances
         questions: [      
           new QuestionModel({
             id: 'start',
@@ -271,114 +259,6 @@
               })
             ]
           }),
-          /*new QuestionModel({
-            id: 'district',
-            shortTitle: 'расположение',
-            title: 'Где бы Вы хотели приобрести квартиру',
-            helpTextShow: false,
-            type: QuestionType.MultipleChoice,
-            required: true,
-            multiple: true,
-             options: [
-              new ChoiceOption({
-                label: 'Любой район Воронежа', 
-                value: 'любой район Воронежа'
-              }),
-              new ChoiceOption({
-                label: 'Железнодорожный', 
-                value: 'Железнодорожный'
-              }),
-              new ChoiceOption({
-                label: 'Коминтерновский', 
-                value: 'Коминтерновский'
-              }),
-              new ChoiceOption({
-                label: 'Левобережный', 
-                value: 'Левобережный'
-              }),
-              new ChoiceOption({
-                label: 'Ленинский', 
-                value: 'Ленинский'
-              }),
-              new ChoiceOption({
-                label: 'Советский', 
-                value: 'Советский'
-              }),
-              new ChoiceOption({
-                label: 'Центральный', 
-                value: 'Центральный'
-              }),
-              new ChoiceOption({
-                label: 'Область', 
-                value: 'Область'
-              }),
-            ]
-          }),*/
-          /*new QuestionModel({
-            id: 'deadline',
-            shortTitle: 'срок сдачи',
-            title: 'Какой срок сдачи Вам подходит?',
-            type: QuestionType.MultipleChoice,
-            required: true,
-            multiple: true, 
-            options: [
-              new ChoiceOption({
-                label: 'Дом сдан', 
-                value: 'дом сдан'
-              }),
-              new ChoiceOption({
-                label: 'Сдаётся в этом году', 
-                value: 'сдаётся в этом году'
-              }),
-              new ChoiceOption({
-                label: 'Сдаётся через год', 
-                value: 'сдаётся через год'
-              }), 
-              new ChoiceOption({
-                label: 'Сдаётся через 2 года', 
-                value: 'сдаётся через 2 года'
-              }),
-              new ChoiceOption({
-                label: 'Любая стадия строительства', 
-                value: 'любая стадия строительства'
-              }),
-            ] 
-          }),*/
-          /*new QuestionModel({
-            id: 'price',
-            shortTitle: 'стоимость',
-            title: 'На какую сумму Вы рассчитываете?',
-            type: QuestionType.MultipleChoice,
-            multiple: false,
-            helpText: 'укажите примерный диапазон в рублях',
-            required: true,
-            options: [
-              new ChoiceOption({
-                label: 'до 2-х миллионов',
-                value: 'до 2-х миллионов'
-              }),
-              new ChoiceOption({
-                label: '2-4 миллиона',
-                value: '2-4 миллиона'
-              }),
-              new ChoiceOption({
-                label: '4-5 миллионов',
-                value: '4-5 миллионов' 
-              }),
-              new ChoiceOption({
-                label: '5-6 миллионов', 
-                value: '5-6 миллионов'
-              }),
-              new ChoiceOption({
-                label: '6-7 миллионов', 
-                value: '6-7 миллионов'
-              }),
-              new ChoiceOption({
-                label: 'больше 7 миллионов', 
-                value: 'больше 7 миллионов'
-              }),
-            ]
-          }),*/
           new QuestionModel({
             id: 'paytype',
             shortTitle: 'виды оплаты',
@@ -418,102 +298,25 @@
             required: true,
             mask: '+7 (###) ###-##-##'
           }),
-          /*new QuestionModel({
-            id: 'calltime',
-            shortTitle: 'можно позвонить',
-            title: 'Когда Вам удобно принять звонок?',
-            helpText: false,
-            type: QuestionType.MultipleChoice,
-            multiple: false,
-            required: true,
-            options: [
-              new ChoiceOption({
-                label: 'Сейчас',
-                value: 'сейчас'
-              }),
-              new ChoiceOption({
-                label: 'В любое время',
-                value: 'в любое время'
-              }),
-              new ChoiceOption({
-                label: 'с 9:00 до 12:00',
-                value: 'с 9:00 до 12:00' 
-              }),
-              new ChoiceOption({
-                label: 'с 12:00 до 15:00', 
-                value: 'с 12:00 до 15:00'
-              }),
-              new ChoiceOption({
-                label: 'с 15:00 до 18:00', 
-                value: 'с 15:00 до 18:00'
-              }),
-              new ChoiceOption({
-                label: 'с 18:00 до 21:00', 
-                value: 'с 18:00 до 21:00'
-              }),
-            ]
-          }),*/
-          /*new QuestionModel({
-            id: 'clientname',
-            shortTitle: 'имя',
-            title: 'Как к Вам можно обращаться?',
-            type: QuestionType.Text,
-            required: true,
-            placeholder: 'Напишите свое имя...'
-          }),*/
         ]
       }
     },
     methods: {
-      /* eslint-disable-next-line no-unused-vars */
       onComplete(completed, questionList) {
-        // This method is called whenever the "completed" status is changed.
         this.completed = completed
       },
 
-      /*arrayEquals(a, b) {
-        return Array.isArray(a) && Array.isArray(b) && a.length === b.length &&
-          a.every((val, index) => val === b[index])
-      },*/
-
-      /*calculateScore() {
-        this.questions.forEach(question => {
-          if (question.type !== QuestionType.SectionBreak) {
-            let answer = question.answer
-            if (typeof answer === 'object') {
-              answer.sort((a, b) => a - b)
-
-              if (this.arrayEquals(answer, this.answers[question.id])) {
-                this.score++
-              }
-            }
-            if (answer == this.answers[question.id]) {
-              this.score++
-            }
-          }
-        })
-      }, */
-
       onSubmit() {
         const data = this.getData()
-        // console.log(data)
+
         axios.post('https://api.новое-жилье36.рф/public/api/lead/add', {
           data,
         }, { withCredentials: true })
         .then((response) => {
-          // handle success
           console.log(response)
-          // Set `submitted` to true so the form knows not to allow back/forward
-          // navigation anymore.
           this.$refs.flowform.submitted = true
           this.submitted = true
         })
-        .catch((error) => {
-          // handle error
-          console.log(error)
-        })
-        
-        //this.calculateScore()
       },
       getData() {
         const data = {
@@ -575,10 +378,6 @@
 
   .answers-block {
     margin-bottom: 15px;
-  }
-
-  .field-name {
-    /*color: #888;*/
   }
 
   .field-value {

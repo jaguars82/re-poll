@@ -1,5 +1,3 @@
-// Form template and logic
-
 <template>
   <div class="vff" :class="{'vff-not-standalone': !standalone, 'vff-is-mobile': isMobile, 'vff-is-ios': isIos}">
     <div class="f-container">
@@ -126,11 +124,6 @@
 </template>
 
 <script>
-  /*!
-    Copyright (c) 2020 - present, DITDOT Ltd. - MIT Licence
-    https://github.com/ditdot-dev/vue-flow-form
-    https://www.ditdot.hr/en
-  */
 
   import FlowFormQuestion from './FlowFormQuestion.vue'
   import QuestionModel, { ChoiceOption, LinkOption, QuestionType } from '../models/QuestionModel'
